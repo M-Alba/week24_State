@@ -1,0 +1,89 @@
+.rate-card {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr 1fr 1fr;
+    gap: 1px;
+    width: calc(25% - 1px);
+    min-height: 300px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.rate-card:nth-child(1) .rate-name {
+    background-color: rgb(35, 155, 171);
+}
+
+.rate-card:nth-child(1) .rate-price-wrapper {
+    background-color: rgb(44, 193, 213);
+}
+
+.rate-card:nth-child(2) .rate-name {
+    background-color: rgb(31, 137, 114);
+}
+
+.rate-card:nth-child(2) .rate-price-wrapper {
+    background-color: rgb(36, 174, 141);
+}
+
+.rate-card:nth-child(3) .rate-name {
+    background-color: rgb(189, 88, 78);
+}
+
+.rate-card:nth-child(3) .rate-price-wrapper {
+    background-color: rgb(244, 106, 95);
+}
+
+.rate-card:nth-child(4) .rate-name {
+    background-color: rgb(40, 47, 55);
+}
+
+.rate-card:nth-child(4) .rate-price-wrapper {
+    background-color: rgb(51, 58, 68);
+}
+
+.rate-name, .rate-speed, .rate-traffic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rate-name {
+    font-size: 25px;
+    color: white;
+    
+}
+
+.rate-price-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+}
+
+.rate-currency {
+    padding-top: 25px;
+}
+
+.rate-price {
+    align-self: center;
+    font-size: 40px;
+}
+
+.rate-price span {
+    font-size: 16px;
+}
+
+.rate-speed {
+    background-color: rgb(248, 248, 248);
+}
+
+.rate-traffic {
+    background-color: rgb(238, 238, 238);
+}
+
+.selected {
+    margin-top: -1%;
+    margin-bottom: -1%;
+    box-shadow: 0px 0px 19px 4px rgba(167,  163,  163, 0.98);
+}
