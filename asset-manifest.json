@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/week24_State/static/css/main.e8b733f1.css",
+    "main.js": "/week24_State/static/js/main.be38e26b.js",
+    "index.html": "/week24_State/index.html",
+    "main.e8b733f1.css.map": "/week24_State/static/css/main.e8b733f1.css.map",
+    "main.be38e26b.js.map": "/week24_State/static/js/main.be38e26b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e8b733f1.css",
+    "static/js/main.be38e26b.js"
+  ]
+}
